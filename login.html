@@ -1,0 +1,598 @@
+
+
+
+
+
+
+
+<!DOCTYPE html> 
+<html>
+
+<!-- Mirrored from itax.kra.go.ke/KRA-Portal/login.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jul 2024 11:07:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+ <meta http-equiv="X-UA-Compatible"    content="IE=edge">
+	<title>Kenya Revenue Authority</title>
+
+    <link rel="shortcut icon" type="image/ico" href="themes/images/favicon.ico" >
+	
+	<link rel="stylesheet" href="themes/styles/common/newHomeTemplate_kra.css" type="text/css" />
+	<link rel="stylesheet" href="themes/styles/common/afterLoginHomeLayout_kra.css" type="text/css" />	
+	
+
+
+	
+
+	<script type='text/javascript' src="dwr/engine.js"></script>
+	<script type='text/javascript' src="dwr/util.js"></script>
+	<script>
+		dwr.engine.setPreHook(function() {_showDynamicDiv()});
+		dwr.engine.setPostHook(function() {_hideDynamicDiv()});
+	</script>
+
+<script src="https://itax.kra.go.ke/elastic-apm-rum.umd.min.js" crossorigin></script>
+<script>
+var parts = window.location.href.split('&'); 
+var pageHref = window.location.href;
+if (parts.length > 0) {
+    pageHref = parts[0] 
+}
+  elasticApm.init({
+    serviceName: 'itax-portal-prod-ux-external',
+    serverUrl: 'https://apm.kra.go.ke:8443',
+    pageLoadTransactionName: pageHref,
+    environment: 'itax-portal-prod',
+    breakdownMetrics: true
+  })
+</script></head>
+
+
+
+<!--  <script type="text/javascript">
+	function PopUp(funCode)
+	{
+		 document.getElementById("funCode").value=funCode; 
+		 setTimeout("ModalPopUp(funCode)",2000);
+	}
+	function ModalPopUp(funCode) 
+	{
+		//alert(document.getElementById("siteSurvey").value);
+		if(document.getElementById("siteSurvey").value=='1')
+		{
+			document.getElementById("survey").style.display="inherit";
+			document.getElementById("funCode").value=funCode.value; 
+			window.location=window.location+"#survey"; 
+		}
+		else
+			document.getElementById("survey").style.display="none";
+			
+	}
+
+	function accepted()
+	{
+		
+		var funCode = document.getElementById("funCode").value; 
+		
+// 		var link="main.htm?actionCode=fetchQuestions&funCode="+funCode; 
+// 		var win=window.open(link,'_blank');
+// 		win.focus();
+// 		document.forms[0].action="siteSurvey.htm?actionCode=fetchQuestions&funCode="+funCode;
+// 	 	document.forms[0].submit();
+
+	 	document.forms[0].action="main.htm?actionCode=fetchQuestions&funCode="+funCode;
+	 	document.forms[0].target = '_blank';
+	 	document.forms[0].submit();
+ 
+// 	 	window.open("http://localhost:7080/KRAPortal/siteSurvey.htm?actionCode=fetchQuestions&funCode="+funCode, 'popupWindowName', 'dependent=yes, menubar=no,toolbar=no,resizable=yes,scrollbars=yes,status=yes,height=800,width=1000,left=40');
+			
+// 		window.open("main.htm?actionCode=fetchQuestions&funCode="+funCode);	
+	 	window.location=window.location+"#close";
+	 	
+	}
+	function notAccepted()
+	{
+		window.location=window.location+"#close";	
+	}
+	
+	</script> -->
+	
+<style>
+.btn{
+background:#ff1919;
+background-image:-webkit-linear-gradient(top,#ff1919,#c71414);
+background-image:-moz-linear-gradient(top,#ff1919,#c71414);
+background-image:-ms-linear-gradient(top,#ff1919,#c71414);
+background-image:-o-linear-gradient(top,#ff1919,#c71414);
+background-image:linear-gradient(to bottom,#ff1919,#c71414);
+-webkit-border-radius:28;
+-moz-border-radius:28;
+border-radius:28px;
+font-family:Arial;
+color:#fff;
+font-size:10px;
+padding:5px 10px 5px 10px;
+text-decoration:none;}
+</style>
+<body topmargin="0">
+<script type="text/javascript" src="scripts/common/newHomeTemplate.js"></script>
+<script type="text/javascript" src="scripts/common/commonValidationCombined.js"></script>
+<script type="text/javascript" src="scripts/common/commonValidationCombined.js"></script>
+<input type="hidden" id="funCode" name="funCode" value=""/>
+<input type="hidden" id="siteSurvey" name="siteSurvey" value=""/>
+	<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> -->
+<script type="text/javascript" src="scripts/common/common.js"></script>
+
+<center>
+<div id='statusbar'>
+<table class="img">
+<tr>
+<td id='imgtd'>
+<img src="themes/images/pageLoader.gif" height="60px" width="60px" alt="image is not supported."></img>
+</td>
+<td id='statuBarTd1' class="showProgressBar"></td>
+</tr>
+</table>
+</div>
+</center>
+<div id="fadeBackground"  class="fade_background"></div>
+
+
+	<!-- Main DIV Started  -->
+	<div class="templateMainDiv" align="center">
+		<!-- Header DIV Started  --> 
+		<div class="templateHeaderDiv">
+			
+
+<!-- Header Image DIV Started -->
+<div class="mainHeaderDIV">
+	<table class="mainHeaderTable" id="header_TD" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+				<img usemap="#KRALogo" title="KRA" src="themes/images/P1Head.jpg" height="122px">
+				
+				
+				<map name="KRALogo">
+	  				<area shape="rect" coords="62,26,300,118" href="maind3d2.html?actionCode=showOnlineServicesHomeLnclick" />
+	  			</map>
+	  			
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- Header Image DIV ended -->
+		</div>
+		<!-- Header DIV Ended  -->
+		<!-- Menu DIV Started  -->
+		<div class="templateMenuDiv">
+			
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> -->
+<html>
+<head>
+
+<title>Insert title here</title>
+<script src="https://itax.kra.go.ke/elastic-apm-rum.umd.min.js" crossorigin></script>
+<script>
+var parts = window.location.href.split('&'); 
+var pageHref = window.location.href;
+if (parts.length > 0) {
+    pageHref = parts[0] 
+}
+  elasticApm.init({
+    serviceName: 'itax-portal-prod-ux-external',
+    serverUrl: 'https://apm.kra.go.ke:8443',
+    pageLoadTransactionName: pageHref,
+    environment: 'itax-portal-prod',
+    breakdownMetrics: true
+  })
+</script></head>
+<body>
+
+</body>
+
+<!-- Mirrored from itax.kra.go.ke/KRA-Portal/login.htm by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jul 2024 11:07:14 GMT -->
+</html>	
+		</div>
+		<!-- Menu DIV Ended  -->
+		
+		<!-- Content DIV Started  -->
+		<div class="templateContentDiv">
+			<table class="templateContentDivTable">
+				<tr>
+					<td class="templateContentDivTableMainPanel">
+						<div class="templateContentDivTableMainPanelDiv">
+							
+
+
+
+<html>
+<head>
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title> Kenya Revenue Authority </title>
+<link rel="shortcut icon" type="image/ico"
+		href="themes/images/favicon.ico">
+
+	<link rel="stylesheet" href="themes/styles/common/newHomeTemplate_kra.css" type="text/css" />
+	<link rel="stylesheet" href="themes/styles/common/afterLoginHomeLayout_kra.css" type="text/css" />
+
+
+<script type="text/javascript">
+function goBack()
+{
+	if('eServices' == "static")
+		window.location.href = "maindbc9.html?actionCode=showHomePageLnclick";
+	else
+		window.location.href = "maind3d2.html?actionCode=showOnlineServicesHomeLnclick";
+}
+function reportProblem()
+{
+	/* document.forms[0].action ="postQuery.htm?actionCode=showPostQuery&viewType=static";
+	document.forms[0].submit(); */
+	window.open("https://kenya-revenue-authority.custhelp.com/app/ask/session/L3RpbWUvMTY3NjQ1NTY3Ny9nZW4vMTY3NjQ1NTY3Ny9zaWQvZlVpTUZHbHIwbEFTUVNhWU80QzRMek9IRk9ZZyU3RW85eTglN0V0bUdlZTZrQUhwVWhYUjdRdGFsaEdBcHZ4UjJLeGh2aVNvNTNaTzlhJTdFZmJ0aVo0JTdFa2xvUlo0bmI3eUdzVUdualJqMUJybnA2bTBZVnhGOHd2VXBwcWclMjElMjE=","_blank");
+}
+</script>
+<script src="https://itax.kra.go.ke/elastic-apm-rum.umd.min.js" crossorigin></script>
+<script>
+var parts = window.location.href.split('&'); 
+var pageHref = window.location.href;
+if (parts.length > 0) {
+    pageHref = parts[0] 
+}
+  elasticApm.init({
+    serviceName: 'itax-portal-prod-ux-external',
+    serverUrl: 'https://apm.kra.go.ke:8443',
+    pageLoadTransactionName: pageHref,
+    environment: 'itax-portal-prod',
+    breakdownMetrics: true
+  })
+</script></head>
+
+<body topmargin="0">
+<form name="invalidAccess">
+
+<!-- Main DIV started -->
+<div class="templateContentDivInvalidURL">
+
+<!-- Bread Crumb starts -->
+
+<div class="textAlignLeft"> <!-- Bread Crumb Alignment -->
+<table>
+	<tr class="youAreHere"> <!-- Bread Crumb css -->
+		
+ 
+
+
+
+
+<script type="text/javascript">
+function getBack()
+{
+   
+   
+   var siteMapJsp="";
+   var linkFrom="";
+   //alert('');
+   siteMapJsp='';
+   linkFrom='';
+   if(siteMapJsp!=null && siteMapJsp!="" && siteMapJsp=='siteMap')	 
+	   window.location.href ="main3429.html?actionCode=showSiteMap";	 
+   else if(linkFrom!=null && linkFrom!="" && linkFrom=='OS') //OS - Online Services Page
+	   window.location.href ="main53ce.html?actionCode=showOnlineServices&amp;viewType=static";
+   else if(linkFrom!=null && linkFrom!="" && linkFrom=='LP') //LP - Login Page
+	   window.location.href = "maind675.html?actionCode=loadOnlineServicesPage";
+   else	 
+	   getBackHome();
+}
+function getBackHome()
+{
+	
+	//alert('eServices');
+	var viewType='eServices';
+	if(viewType == "static")
+		window.location.href = "maindbc9.html?actionCode=showHomePageLnclick";
+	else
+		window.location.href = "maind3d2.html?actionCode=showOnlineServicesHomeLnclick";
+}
+</script>
+<!-- Bread Crumb - General Message/Link - starts -->
+<td>
+	&nbsp;&nbsp;<a href="#" onClick="javascript:getBackHome();"><img src="themes/images/home.png" alt="Home"/></a>
+</td>
+
+<!-- Bread Crumb ends -->
+		
+	</tr>
+</table>
+</div>
+
+<!-- Bread Crumb ends -->
+	
+<br />
+
+<!-- Content Table - Invalid URL Information for further Assistance - starts -->
+
+<div> <!-- Content Table main div -->
+<center> <!-- center main div content -->
+	<div class="divBorder"> <!-- Content Table Div for Border -->
+		<table class="tab3 whitepapartdBig"> <!-- Content Table with css -->
+			<tr>
+				<td colspan="3" class="tablerowhead">Please go through the following penalties.</td>
+			</tr>
+			<style>
+				body {
+					font-family: Arial, sans-serif;
+					background-color: #f5f5f5;
+					margin: 0;
+					padding: 0;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					min-height: 100vh; /* Ensuring full viewport height */
+				}
+				.auth-wrapper {
+					width: 100%;
+					max-width: 600px; /* Increased width for better presentation */
+					padding: 15px;
+				}
+				.auth-box {
+					background-color: #ffffff;
+					padding: 20px;
+					border-radius: 5px;
+					box-shadow: 0 0 10px rgba(0,0,0,0.1);
+				}
+				.logo {
+					text-align: center;
+					margin-bottom: 20px;
+				}
+				.logo img {
+					max-width: 100%;
+					height: auto;
+				}
+				.form-control {
+					margin-bottom: 15px;
+					width: 100%;
+					padding: 10px;
+					font-size: 16px;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+				}
+				.btn-special {
+					background-color: #007bff; /* Blue color for buttons */
+					color: #fff;
+					border: none;
+					padding: 10px 20px;
+					cursor: pointer;
+					border-radius: 4px;
+					margin-top: 10px; /* Added margin top */
+				}
+				.btn-special:hover {
+					background-color: #0056b3; /* Darker blue on hover */
+				}
+				.payment-popup {
+					display: none; /* Hidden by default */
+					position: fixed;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+					background-color: rgba(0,0,0,0.5); /* Semi-transparent background */
+					z-index: 1000; /* Ensure it's above other content */
+					overflow: auto;
+				}
+				.payment-popup-content {
+					background-color: #fefefe;
+					margin: 15% auto; /* Centered */
+					padding: 20px;
+					border: 1px solid #888;
+					width: 80%;
+					max-width: 400px;
+					border-radius: 5px;
+					box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+				}
+				.close {
+					color: #aaa;
+					float: right;
+					font-size: 28px;
+					font-weight: bold;
+					cursor: pointer;
+				}
+				.close:hover,
+				.close:focus {
+					color: black;
+					text-decoration: none;
+					cursor: pointer;
+				}
+				.payment-instructions {
+					margin-top: 20px;
+					padding: 10px;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+					background-color: #f9f9f9;
+				}
+				.payment-instructions h3 {
+					margin-top: 0;
+				}
+				.payment-instructions p {
+					margin-bottom: 5px;
+				}
+				table {
+					width: 100%;
+					border-collapse: collapse;
+					margin-top: 20px;
+				}
+				table, th, td {
+					border: 1px solid #ddd;
+				}
+				th, td {
+					padding: 8px;
+					text-align: left;
+				}
+				th {
+					background-color: #ffcccc; /* Red background color */
+					color: #333; /* Text color */
+				}
+			</style>
+		</head>
+		<body>
+			<div class="auth-wrapper">
+				<div class="auth-box">
+					
+					<h2>OFFENCE AND PENALTIES</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>PIN</th>
+								<th>Offence</th>
+								<th>Penalty</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Eunice Mburu</td>
+								<td>A006110913S</td>
+								<td>Late Onboardment of eTims</td>
+								<td>Ksh 19,500</td>
+							</tr>
+							<!-- Add more rows as needed -->
+						</tbody>
+					</table>
+					<button class="btn-special" id="payNowBtn">PAY NOW</button>
+            <div class="payment-popup" id="paymentPopup">
+                <div class="payment-popup-content">
+                    <span class="close" onclick="closePaymentPopup()">&times;</span>
+							<div class="payment-instructions">
+								<h3>Pay using KCB</h3>
+                        <p><strong>Paybill Number:</strong> 522 522</p>
+                        <p><strong>Account Number:</strong> 131 882 2483</p>
+                        <p>Please ensure you have the correct details before proceeding with the payment. 
+							After making the payment, the receipt will be processed in 24 hours
+						</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var paymentPopup = document.getElementById('paymentPopup');
+        var payNowBtn = document.getElementById('payNowBtn');
+
+        payNowBtn.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            paymentPopup.style.display = 'block';
+        });
+
+        function closePaymentPopup() {
+            paymentPopup.style.display = 'none';
+        }
+    </script>
+
+<!-- Content Table ends -->
+
+<br />
+
+<!-- Buttons started -->
+<div>
+<center>
+	<input type="button" value = "Back" onClick="javascript:goBack();" class="submit">
+</center>
+</div>
+<!-- Buttons ended -->
+
+</div>
+<!-- Main DIV Ended -->
+
+</form>
+</body>
+</html>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- Content DIV Ended  -->
+		
+		<!-- Footer DIV Started  -->
+		<div class="templateFooterDiv">
+			<table class="templateFooterDivTable">
+				<tr>
+					<td class="templateFooterDivTableFooter">
+						
+
+
+
+<HTML>
+
+<body>
+<form name="frmFooter" method="post">
+
+
+<!-- Footer DIV Started-->
+   	
+ <div> <!-- Footer Main DIV-->
+   	<table width="100%"> <!-- Footer Content Table -->
+   		<tr>
+			<!-- TCSLogo and Message Part Started -->
+			<td class="textAlignCenter">
+				<div>
+					<table width="100%">
+						<tr>
+							<td class="textAlignCenter"><img title="KRA VISION 2030.jpg" src="themes/images/KRA_VISION_2030.png" height="70"></td>
+							<td class="manageSite">Times Tower, Haile Selassie Avenue, <br/> P.O.Box 48240 - 00100 GPO Nairobi Tel: 020-310300, 020-281000 Fax: 341342 <br/><br/>Call Center details Tel:020-4999999,020-4998000 Cell:0711-099999 Email: 	callcentre@kra.go.ke<br/>
+									<font class="bestViewMsg">Site best viewed in 1024 X 768 resolution with IE 7.0 and above. Site is designed,developed and managed by TATA.&nbsp;&copy;2011</font>
+							</td>
+							<td class="textAlignCenter manageSite">Powered By<br><img title="TATA CONSULTANCY SERVICES" src="themes/images/Tata_Logo.png" height="70"></td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+   	
+<!-- Footer DIV Ended-->
+
+
+</form>
+</body>
+<script type="text/javascript">
+	supressEnterKeySubmit();
+//	ddlevelsmenu.setup("ddtopmenubar", "topbar");
+</script>
+</HTML>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- Footer DIV Ended  -->
+	</div>
+	<!-- Main DIV Ended  -->
+	<script>
+		hideProgressbar();
+	</script>
+	
+<a href="#survey" style="display: none" >iTax Survey</a>
+<div id="survey" class="modalDialog" title="iTax Survey" style="display:none;" >
+	<div style="background-color: #e7e1e1" >
+		<a href="#close" title="Close" class="close">X</a>
+		<div style="background-color: #ff1919"><p align="center" style="color:#ffffff; font-family:inherit; height:15px; padding-top: 7px" >iTax Survey</p></div>
+		<div style="background-color: #e7e1e1">
+		<p align="center" style="font-family:inherit;">Would you like to participate in Survey?</p>
+		<div align="center"  >
+		<a class="btn"  style="cursor: pointer;" onclick="javascript:accepted();">Yes</a>
+		<a class="btn" style="cursor: pointer;" onclick="javascript:notAccepted();">Not Now</a>
+		</div>
+		</div>
+	</div>
+</div>
+
+</body>
+<script type="text/javascript">
+setRowOddEvenBackColor();
+setSelectObjAltText();
+setTextAreaObjLengthText();
+</script>
+</html>

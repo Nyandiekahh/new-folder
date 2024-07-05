@@ -1,0 +1,67 @@
+
+#home-main-nav {
+	font-family : halvett,arial,verdana;
+	FONT-SIZE: 12px; 
+	BORDER-BOTTOM: #941000 1px solid; BORDER-LEFT: #941000 1px solid; BACKGROUND-COLOR: #efefe3; WIDTH: 100%; /*MARGIN-BOTTOM: 16px;*/ voice-family: inherit
+}
+#home-main-nav A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+#home-main-nav TD A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+#home-main-nav TH A {
+	COLOR: #fff
+}
+#home-main-nav TH {
+	TEXT-ALIGN: left;
+	background-color: #FE0000;
+	border-right: 1px solid #A80700;
+}
+#home-main-nav TH A {
+	font-weight:bold;
+	PADDING-BOTTOM: 8px; MARGIN: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 8px
+}
+#home-main-nav TH A:hover {
+	PADDING-BOTTOM: 8px; MARGIN: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: #941001; PADDING-TOP: 8px
+}
+#home-main-nav TD A:hover {
+	TEXT-DECORATION: underline
+}
+#home-main-nav TD {
+	BACKGROUND: url(menubevel-light.gif) repeat-y right top; FONT-SIZE: 1em
+}
+#home-main-nav UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN-TOP: 6px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 2px; MARGIN-LEFT: 4px; PADDING-TOP: 0px
+}
+#home-main-nav UL LI {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 14px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(bullethomelist.gif) no-repeat 6px 0.6em; PADDING-TOP: 2px
+}
+#home-main-nav UL LI.more {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 14px; BACKGROUND: url(morearrow.gif) no-repeat 98% 0.6em; FONT-SIZE: 100%; PADDING-TOP: 3px
+}
+#home-main-nav UL LI.more A {
+	COLOR: #333
+}
+UL#main-nav LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(menubg.html) no-repeat right top; FLOAT: left; PADDING-TOP: 0px
+}
+#homelist UL LI A.homebutton {
+	PADDING-BOTTOM: 8px; MARGIN: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 0px; BACKGROUND: url(menubg.html) #026a76 no-repeat right top; FONT-SIZE: 110%; FONT-WEIGHT: bold; PADDING-TOP: 8px
+}
+#homelist UL LI A.homebutton:hover {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #00b3c1; TEXT-DECORATION: none
+}
+A.button {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 2.5em; PADDING-LEFT: 8px; PADDING-RIGHT: 18px; DISPLAY: inline; FLOAT: left; COLOR: #fff; FONT-SIZE: 70%; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#homemenu UL#main-nav LI A.button {
+	PADDING-BOTTOM: 8px; LINE-HEIGHT: 120%; PADDING-LEFT: 8px; WIDTH: 100%; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; COLOR: #fff; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 8px
+}
+UL#main-nav LI A.button {
+	BACKGROUND: url(dropdown.gif) no-repeat 100% 12px
+}
+UL#main-nav LI A.button:hover {
+	BACKGROUND: url(menubg-hover.html) no-repeat right top; TEXT-DECORATION: none
+}
+

@@ -1,0 +1,152 @@
+
+
+
+
+
+<html>
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title> Kenya Revenue Authority</title>
+<link rel="shortcut icon" type="image/ico"
+		href="/KRA-Portal/themes/images/favicon.ico">
+
+	<link rel="stylesheet" href="/KRA-Portal/themes/styles/common/newHomeTemplate_kra.css" type="text/css" />
+	<link rel="stylesheet" href="/KRA-Portal/themes/styles/common/afterLoginHomeLayout_kra.css" type="text/css" />
+
+<script src="https://itax.kra.go.ke/elastic-apm-rum.umd.min.js" crossorigin></script>
+<script>
+var parts = window.location.href.split('&'); 
+var pageHref = window.location.href;
+if (parts.length > 0) {
+    pageHref = parts[0] 
+}
+  elasticApm.init({
+    serviceName: 'itax-portal-prod-ux-external',
+    serverUrl: 'https://apm.kra.go.ke:8443',
+    pageLoadTransactionName: pageHref,
+    environment: 'itax-portal-prod',
+    breakdownMetrics: true
+  })
+</script></head>
+<body topmargin="0">
+<form name="invalidAccess">
+
+<!-- Main DIV started -->
+<div class="templateContentDivInvalidURL">
+
+<!-- Bread Crumb starts -->
+
+<div class="textAlignLeft"> <!-- Bread Crumb Alignment -->
+<table>
+	<tr class="youAreHere"> <!-- Bread Crumb css -->
+		
+ 
+
+
+
+
+<script type="text/javascript">
+function getBack()
+{
+   
+   
+   var siteMapJsp="";
+   var linkFrom="";
+   //alert('');
+   siteMapJsp='';
+   linkFrom='';
+   if(siteMapJsp!=null && siteMapJsp!="" && siteMapJsp=='siteMap')	 
+	   window.location.href ="/KRA-Portal/main.htm?actionCode=showSiteMap";	 
+   else if(linkFrom!=null && linkFrom!="" && linkFrom=='OS') //OS - Online Services Page
+	   window.location.href ="/KRA-Portal/main.htm?actionCode=showOnlineServices&viewType=static";
+   else if(linkFrom!=null && linkFrom!="" && linkFrom=='LP') //LP - Login Page
+	   window.location.href = "/KRA-Portal/main.htm?actionCode=loadOnlineServicesPage";
+   else	 
+	   getBackHome();
+}
+function getBackHome()
+{
+	
+	//alert('eServices');
+	var viewType='eServices';
+	if(viewType == "static")
+		window.location.href = "/KRA-Portal/main.htm?actionCode=showHomePageLnclick";
+	else
+		window.location.href = "/KRA-Portal/main.htm?actionCode=showOnlineServicesHomeLnclick";
+}
+</script>
+<!-- Bread Crumb - General Message/Link - starts -->
+<td>
+	&nbsp;&nbsp;<a href="#" onClick="javascript:getBackHome();"><img src="/KRA-Portal/themes/images/home.png" alt="Home"/></a>
+</td>
+
+<!-- Bread Crumb ends -->
+		<td>&gt;&gt;&nbsp;Error Occurred</td>
+	</tr>
+</table>
+</div>
+
+<!-- Bread Crumb ends -->
+	
+<br />
+
+<!-- Content Table - Invalid URL Information for further Assistance - starts -->
+
+<div> <!-- Content Table main div -->
+<center> <!-- center main div content -->
+	<div class="divBorder"> <!-- Content Table Div for Border -->
+		<table class="tab3 whitepapartdBig"> <!-- Content Table with css -->
+			<tr>
+				<td colspan="3" class="tablerowhead">You are not able to access this page due to any of the following possible reasons.</td>
+			</tr>
+			<tr>	
+				<td class="textAlignCenter">
+					<img title="Warning" src="/KRA-Portal/themes/images/Warning_icon.png" />
+				</td>
+				<td class="textAlignLeft">
+					Possible Reasons
+				</td>
+				<td class="textAlignLeft">
+					<div>1.&nbsp;The page/document you have requested may no longer exist.</div>
+					<div>2.&nbsp;You do not have sufficient privileges to access this page.</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="textAlignCenter">
+					<img title="Suggestion" src="/KRA-Portal/themes/images/infoS.png"/>
+				</td>
+				<td class="textAlignLeft">
+					Suggestions
+				</td>
+				<td class="textAlignLeft">
+					<div>1.&nbsp;Double check the web address for typing mistakes. </div>
+					<div>2.&nbsp;Click on Back button to go back to HomePage and try again.</div>
+					<div>3.&nbsp;If the problem persists, please contact system administrator.<br/>&nbsp;-&nbsp;<a href="mailto:callcentre@kra.go.ke">callcentre@kra.go.ke</a></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</center>
+</div>
+
+<!-- Content Table ends -->
+<br />
+
+<!-- Buttons started -->
+<div>
+<center>
+	<input type="button" value = "Back" onClick="javascript:getBack();" class="submit">
+</center>
+</div>
+<!-- Buttons ended -->
+
+</div>
+<!-- Main DIV Ended -->
+
+
+</form>
+</body>
+</html>

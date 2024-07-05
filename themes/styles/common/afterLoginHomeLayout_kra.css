@@ -1,0 +1,611 @@
+@CHARSET "ISO-8859-1"; 
+
+.AccordionTitle,.AccordionContent,.AccordionContainer {
+	position: relative;
+	width: 100%;
+}
+
+.AccordionTitle {
+	height: auto;
+	overflow: hidden;
+	cursor: pointer;
+	font-family: halvett,arial,verdana;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 1px solid #FFF;
+	display: block;
+	-moz-user-select: none;
+}
+
+.AccordionTitle a {
+	font-size: .8em;
+	line-height: 1.6em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #272727;
+	padding-left: 10px;
+}
+
+.AccordionTitle a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #FE0000;
+}
+
+.AccordionContent {
+	height: 155px;
+	overflow: auto;
+	display: none;
+}
+
+#Accordion4Content {
+	position: relative;
+	width: inherit; /*marquee width */
+	/*height: 13px; /*marquee height */
+	overflow: auto;
+	padding-left: 4px;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+div.accordionContent {
+	padding-bottom: 1em;
+	background:#f6f6f6;
+}
+
+.AccordionOpen {
+	height: 150px;
+	overflow: auto;
+	border-left: #CCC dotted 1px;
+}
+
+@media Print {
+	.AccordionContent {
+		display: block !important;
+	}
+}
+
+.AccordionContainer {
+	border: 0;
+	height: auto;
+}
+
+#graynav {
+	color: Gray;
+	text-align: center;
+}
+
+#topnav td {
+	width: 420px;
+}
+
+#linkArea {
+	display: inline;
+}
+
+#form2 {
+	margin-top: -1px;
+	margin-bottom: -1px;
+}
+
+.shortdesc {
+	color: Black;
+	font-size: 70%;
+}
+
+.shortdesclinks {
+	text-decoration: underline;
+	color: Blue;
+}
+
+.bodylinks {
+	color: #4A4A4A;
+	font-size: 80%;
+}
+
+.bodylinksgeneral {
+	color: #4A4A4A;
+	font-size: 13px;
+}
+
+.pics {
+	height: 89px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.pics img {
+	padding: 0;
+	border: 0 solid #ccc;
+	background-color: #eee;
+	height: 89px;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+#output {
+	position: relative;
+	height: 0;
+	top: 0;
+	left: 850px;
+	z-index: 50;
+	font-size: .6em;
+	vertical-align: middle;
+	color: #fff;
+	width: 985px;
+	font-family: halvett,arial,verdana;
+	font-weight: bold;
+	opacity: .75;
+}
+
+.mainPage1280X768 {
+	WIDTH: 1024px;
+	height: 768px;
+	background-color: #fff;
+}
+
+.mainPage1024X768 {
+	WIDTH: 98%;
+	HEIGHT: 100%;
+	background-color: #fff;
+}
+
+.scrollablediv {
+	BORDER-RIGHT: #999 0 solid;
+	PADDING-RIGHT: 1px;
+	BORDER-TOP: #999 0 solid;
+	PADDING-LEFT: 1px;
+	FONT-WEIGHT: lighter;
+	FONT-SIZE: 12pt;
+	PADDING-BOTTOM: 1px;
+	VERTICAL-ALIGN: middle;
+	OVERFLOW: auto;
+	BORDER-LEFT: #999 0 solid;
+	WIDTH: 100%;
+	CURSOR: crosshair;
+	PADDING-TOP: 1px;
+	BORDER-BOTTOM: #999 0 solid;
+	LETTER-SPACING: 0;
+	HEIGHT: 100px;
+	TEXT-ALIGN: justify;
+}
+
+.loginhead {
+	font-weight: bold;
+	color: white;
+	background-color: #604020;
+	font-size: 80%;
+	text-decoration: none;
+}
+
+.leftgradient {
+	BACKGROUND: #fff;
+}
+
+.leftmenubackground {
+	background-color: #eeefdf;
+}
+
+.webAccessibilitytop {
+	background-color: #F2F2F2;
+}
+
+.homelink {
+	font-family: halvett, arial, verdana;
+	font-size: 12px;
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.footerseptater {
+	background-color: #fff;
+}
+
+.hm_header {
+	text-decoration: none;
+	font-family: halvett, arial, verdana;
+	font-size: 12px;
+	color: ffffff;
+	font-weight: bold;
+	width: 315px;
+	padding: 10px 0 0 10px;
+}
+
+.hm_top_315 {
+	background: url(../../images/header_kra.jpg) no-repeat left top;
+	width: 315px;
+	height: 26px;
+	float: left;
+	cursor: move;
+	color:#000;
+}
+
+.hm_mid_315 {
+	/*background: url(../../images/midbg_315.png) repeat-y left top;*/
+	width: 315px;
+	float: left;
+}
+
+.hm_bot_315 {
+	background: url(../../images/bottomround1_kra.jpg) no-repeat left top;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 15px;
+	height: 17px;
+	float: left;
+}
+
+.hm_collapselink {
+	width: 90%;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.mart5 {
+	margin-top: 5px;
+}
+
+.portlet {
+	width: 320px;
+	clear: left;
+}
+
+.column {
+	width: 312px;
+	height: auto;
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+.ui-icon {
+	float: right;
+}
+
+.postLoginBox {
+	background-image: url(../../images/left_login_kra.html);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	font-family: halvett,arial,verdana;
+	font-weight: bold;
+	font-size: 13px;
+	height: 122px;
+	vertical-align: top;
+}
+
+.postLoginBoxPad {
+	height: 3px;	
+}
+
+.welcomeTab {
+	color: #FFFFFF;	
+	text-align: center;
+}
+
+.loginHomeIconsTab {
+	height: 100px;
+	border-style: ridge;
+	border-width: 2px;
+	border-color: white;
+	border-collapse: separate;
+	border-spacing: 0px;
+	font-family: halvett, arial, verdana;
+	font-size: 13px;
+	width: 100%;
+}
+
+.accordionBox {
+	vertical-align: top;	
+	width: 98%;
+	border-style: solid;
+	/*border-color: #EAEBED;*/
+	border-color: #EDEDED;
+	border-width: 1pt;	
+}
+
+.eReturn,.viewReturn,.eAmendment,.eCancellation,.eDormance,.viewProfile,.viewPayment,.registerPayment,.myLedger
+	{
+	background: url(../../images/taxpayersprite.png) no-repeat top left;
+}
+
+.eReturn{
+	background-position: -290px 0;
+	width: 50px;
+	height: 50px;
+}
+
+.viewReturn{
+	background-position: -395px 0;
+	width: 50px;
+	height: 40px;
+}
+
+.eAmendment{
+	background-position: 0 0;
+	width: 40px;
+	height: 46px;
+}
+
+.eCancellation{
+	background-position: -45px 0;
+	width: 45px;
+	height: 45px;
+}
+
+.eDormance{
+	background-position: -95px 0;
+	width: 45px;
+	height: 45px;
+}
+.viewProfile{
+	background-position: -195px 0;
+	width: 40px;
+	height: 43px;
+}
+
+.viewPayment{
+	background-position: -345px 0;
+	width: 45px;
+	height: 45px;
+}
+
+.registerPayment{
+	background-position: -240px 0; 
+	width: 45px;
+	height: 45px;
+}
+
+.myLedger{
+	background-position: -145px 0;
+	width: 45px;
+	height: 45px;
+}
+
+.FAQ,.userLogout,.Message,.VAT_ERtn,.View_Pmt,.check_post,.chngpwd,.credit_cards,.directory,.email_alert,.grayblock_arrow,.icon_collapse1,icon_expand1,.key,.mail_1000,.people,.question,.rates,.sendmail,.unlock1,.view_epayment
+	{
+	background: url(../../images/homePageSpriteImage.png) no-repeat top left;
+}
+
+.FAQ {
+	background-position: 0 0;
+	width: 40px;
+	height: 40px;
+}
+
+.userLogout {
+	background-position: -90px 0;
+	width: 40px;
+	height: 35px;
+}
+
+.Message {
+	background-position: -180px 0;
+	width: 40px;
+	height: 40px;
+}
+
+.VAT_ERtn {
+	background-position: -270px 0;
+	width: 40px;
+	height: 30px;
+}
+
+.View_Pmt {
+	background-position: -360px 0;
+	width: 40px;
+	height: 30px;
+}
+
+.check_post {
+	background-position: -450px 0;
+	width: 40px;
+	height: 30px;
+}
+
+.chngpwd {
+	background-position: -540px 0;
+	width: 40px;
+	height: 35px;
+}
+
+.credit_cards {
+	background-position: -630px 0;
+	width: 40px;
+	height: 30px;
+}
+
+.directory {
+	background-position: -720px 0;
+	width: 40px;
+	height: 40px;
+}
+
+.email_alert {
+	background-position: -810px 0;
+	width: 48px;
+	height: 48px;
+}
+
+.grayblock_arrow {
+	background-position: -908px 0;
+	width: 7px;
+	height: 5px;
+}
+
+.icon_collapse1 {
+	background-position: -965px 0;
+	width: 10px;
+	height: 5px;
+}
+
+.icon_expand1 {
+	background-position: -1025px 0;
+	width: 10px;
+	height: 5px;
+}
+
+.key {
+	background-position: -1085px 0;
+	width: 40px;
+	height: 35px;
+}
+
+.mail_1000 {
+	background-position: -1175px 0;
+	width: 40px;
+	height: 30px;
+}
+
+.people {
+	background-position: -1265px 0;
+	width: 40px;
+	height: 40px;
+}
+
+.question {
+	background-position: -1355px 0;
+	width: 40px;
+	height: 40px;
+}
+
+.rates {
+	background-position: -1445px 0;
+	width: 40px;
+	height: 40px;
+}
+
+.sendmail {
+	background-position: -1535px 0;
+	width: 40px;
+	height: 40px;
+}
+
+.unlock1 {
+	background-position: -1625px 0;
+	width: 40px;
+	height: 40px;
+}
+
+.view_epayment {
+	background-position: -1715px 0;
+	width: 32px;
+	height: 32px;
+}
+
+#hm_box_650,.hm_box_650 {
+	width: 650px;
+	clear: left;
+	float: left;
+}
+
+.pdt15 {
+	padding-top: 15px;
+}
+
+#hm_contentcontainer {
+	width: 100%;
+	padding-bottom: 15px;
+	float: left;
+}
+
+#hm_container {
+	width: 985px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+}
+
+#hm_leftcontainer {
+	width: 650px;
+	margin-right: 18px;
+	float: left;
+}
+
+.ui-sortable-placeholder {
+	border: 1px dotted black;
+	visibility: visible !important;
+	height: 130px !important;
+}
+
+.ui-sortable-placeholder * {
+	visibility: hidden;
+}
+
+/* Changes for showing popup for unread message information and also for organisational chart*/
+.announcementBoxParent {
+	position: relative;
+}
+.announcementBox {
+	width: 250px;
+	position: absolute;
+	left: 75px;
+	top: 50px;
+}
+.announcementMessage {
+	font-family: halvett, arial, verdana;
+	font-size: 13px;
+	color: #000;
+	font-weight: bold;
+}
+.popupmsg{
+	background-color: #272727;
+	text-decoration: none;
+	font-family: halvett, arial, verdana;
+	font-size: 12px;
+	color: ffffff;
+	font-weight: bold;
+	width: 315px;
+	padding: 10px 0 0 10px;
+}
+.popupmsgborder{
+	background-color: #272727;
+}
+/* End changes */
+
+.logout{
+	font-size:13px;
+	color: #000000;
+}
+.logout a:hover{
+	text-decoration: underline;
+}
+.userRoleMapFloatDiv {
+	width: 50%;
+	float: left;
+}
+.accessControlMapTable {
+	overflow: auto;
+	height: 250px;
+}
+.userRoleMapFloatStop {
+	float: none;
+}
+
+/*Changes for ITMS-FRAMEWORK REPORTS*/
+.commonMsgJSPTable {
+	border-collapse: collapse;
+	border-width: 1px;
+	border-color: black;
+	text-align: center;
+	size: 3px;
+}
+
+
+/*Changes for Password Exp Msg*/
+.passExpDaysMsg {
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
+	color: red;
+}
+
+input[type="checkbox"][readonly] {
+    pointer-events: none;
+  }
